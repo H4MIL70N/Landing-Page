@@ -1,0 +1,83 @@
+.container{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+*{
+    outline: red 1px solid;
+}
+
+.first-section{
+    background-color: #1f2937;
+    min-height: 400px;
+}
+
+.second-section{
+    background-color: white;
+    min-height: 400px;
+}
+
+.third-section{
+    background-color: #e5e7eb;
+    min-height: 400px;
+    display: flex;
+    color: #1f2937;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+.quote-text{
+    font-size: 36px;
+}
+
+.author{
+    font-weight: 700;
+    align-self: flex-end;
+    font-size: 25px;
+}
+
+.fourth-section{
+    background-color: white;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Sign-up{
+    background-color: #3882f6;
+    color: white;
+    padding: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+button{
+    background-color: #3882f6;
+    border: white 1px solid;
+    color: white;
+    margin-left: 60px;
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.footer{
+    background-color: #1f2937;
+    min-height: 50px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
